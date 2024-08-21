@@ -1,0 +1,1 @@
+var s=class{constructor(){}static patternValidator(t,e){return r=>r.value?t.test(r.value)?null:e:null}static MatchValidator(t){let e=t.get("password").value,r=t.get("confirmPassword").value;if(!r?.length)return null;if(r.length<8)t.get("confirmPassword").setErrors({minLength:!0});else if(e!==r)t.get("confirmPassword").setErrors({mismatch:!0});else return null}};export{s as a};
