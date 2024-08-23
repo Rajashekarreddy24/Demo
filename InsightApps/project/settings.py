@@ -244,12 +244,12 @@ SANDBOX_REDIRECT_URL = 'https://www.google.com/' #### change with https://domain
 SANDBOX_SCOPES = ['com.intuit.quickbooks.accounting','com.intuit.quickbooks.payment','openid','profile','email','phone','address']
 token_url='https://www.google.com/'
 
-link_url = 'http://50.18.24.167:50/'
+link_url = 'http://localhost:8000/'
 
 #######  oauth2  #######
 CLIENT_ID = 'IBQBcMjZnAJYfiUdXQNZzyslEfIqn6cHPgS6FwVz'
 CLIENT_SECRET = 'L2y3hqwtdNycJBGvOkBWvh6lrkuTcDOD'
-TOKEN_URL = 'http://50.18.24.167:50/v1/oauth2/token/'
+TOKEN_URL = 'http://localhost:8000/v1/oauth2/token/'
 
 
 OAUTH2_PROVIDER = {

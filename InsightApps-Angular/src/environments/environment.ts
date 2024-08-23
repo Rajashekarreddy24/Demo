@@ -13,7 +13,10 @@ export const environment = {
     measurementId: "*********************"
   },
   production: false,
-  apiUrl:'http://50.18.24.167:50/v1',
+  // apiUrl:'http://50.18.24.167:50/v1',
+  apiUrl:'http://localhost:8000/v1',
+
+  //localhost:8000
      //prod_domain
 };
 
